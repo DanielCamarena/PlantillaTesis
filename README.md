@@ -1,7 +1,7 @@
 # Plantilla LaTeX de Tesis
 
 
-Este proyecto LaTeX puede tomarse como plantilla de tesis de la Universidad Nacional de Ingeniería (https://www.uni.edu.pe/). 
+Este proyecto LaTeX puede tomarse como plantilla de tesis en ingeniería de la Universidad Nacional de Ingeniería (https://www.uni.edu.pe/). 
 
 Modificado desde https://github.com/KeyvinSV/Plantilla-Tesis-UNI-LaTeX. Además, existe una [versión online en Overleaf](https://www.overleaf.com/latex/templates/tesis-uni-template-universidad-nacional-de-ingenieria/xtqfzxhdfbrt?fbclid=IwAR39xRK0puQSjKE25RWw4VR983R0Y9N2riFbJLUnNXQ6mL1H2n1KWuEauSI)
 
