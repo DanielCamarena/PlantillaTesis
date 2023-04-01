@@ -1,14 +1,14 @@
 # Plantilla LaTeX de Tesis
 
 
-Este proyecto LaTeX puede tomarse como plantilla de tesis en ingeniería de la Universidad Nacional de Ingeniería (https://www.uni.edu.pe/). 
+Este proyecto LaTeX puede tomarse como plantilla de *tesis en ingeniería* de la Universidad Nacional de Ingeniería (https://www.uni.edu.pe/). 
 
 Modificado desde https://github.com/KeyvinSV/Plantilla-Tesis-UNI-LaTeX. Además, existe una [versión online en Overleaf](https://www.overleaf.com/latex/templates/tesis-uni-template-universidad-nacional-de-ingenieria/xtqfzxhdfbrt?fbclid=IwAR39xRK0puQSjKE25RWw4VR983R0Y9N2riFbJLUnNXQ6mL1H2n1KWuEauSI)
 
 
 ## Dependencias
 
-Se requiere de una distribución de LaTeX (se recomienda [TeXLive](https://www.tug.org/texlive/)), el software de gestión de referencias BibTeX y una aplicación para edición (se recomienda [TeXstudio](https://www.texstudio.org/)). 
+Se requiere de una distribución de LaTeX (se recomienda [MikTeX](https://miktex.org/)), el software de gestión de referencias BibTeX y una aplicación para edición (se recomienda [TeXstudio](https://www.texstudio.org/)). 
 
 Además, hay gráficos opcionales que se generan con Tikz.
 
@@ -61,7 +61,7 @@ PlantillaTesis/
 │   ├── Anexos.tex
 │   └── Secciones    
 ├── E_IMAGENES
-│   ├── 1_Caratula
+│   ├── 1_Protocolar
 │   │   └── UNI_LOGO1.pdf
 │   ├── 2_Capitulo2
 │   ├── 2_Capitulo3
