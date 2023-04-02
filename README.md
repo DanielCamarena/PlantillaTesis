@@ -84,7 +84,7 @@ La compilación se realiza con el fichero control `TESIS_UNI_main.tex`, previame
 
 La clase de documento LaTeX (documentclass) es una modificación de la clase book, esto corresponde al archivo `TesisUNI.cls` (evite editar dicho archivo).
 
-El esquema de carátula de la tesis queda definida en el fichero `1_0_CARATULA/Caratula.tex` (evite editar dicho archivo), y puede modificarse los datos de la carátula desde el preámbulo en el fichero `0_0_PREAMBULO/Preambulo.tex`.
+El esquema de carátula de la tesis queda definida en el fichero `1_0_CARATULA/Caratula.tex` (edite lo menos posible dicho archivo), y puede modificarse los datos de la carátula desde el preámbulo en el fichero `0_0_PREAMBULO/Preambulo.tex`.
 
 El resultado de la compilación es un archivo PDF llamado [`TESIS_UNI_main.pdf`](https://github.com/DanielCamarena/PlantillaTesis/blob/main/TESIS_UNI_main.pdf).
 
