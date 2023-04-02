@@ -13,7 +13,7 @@
 
 \usepackage{amssymb} %Símbolos matemáticos
 \usepackage{amsmath} %Entornos matemáticos para ecuaciones
-\usepackage{amsmthm} %Entornos matemáticos para teoremas
+\usepackage{amsthm} %Entornos matemáticos para teoremas
 
 \usepackage{mathptmx}
 \usepackage[mathbf=sym]{unicode-math} % Mantener fuentes matemáticas
@@ -196,12 +196,12 @@
 %Nuevos entornos THEOREM (Paquetes AMSMATH, AMSTHM)
 %Argumento opcional chapter para controlar numeración en estilo book
 %Se omite argumento chapter para numeración continua
+\newtheorem{definition}{Definición}[chapter]
 \newtheorem{theorem}{Teorema}[chapter] 
-\newtheorem{proposition}{Proposición}[chapter]
 
 %Nuevos comandos MATEMATICOS/OTROS
 \newcommand{\R}{\mathbb{R}} %números reales
-\newcommand{\P}{\mathcal{P}} %probabilidad
+\newcommand{\N}{\mathbb{N}} %números naturales
 
 
 %Escribir la INFORMACIÓN PERSONAL Y DEL TRABAJO
