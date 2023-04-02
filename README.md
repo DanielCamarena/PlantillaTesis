@@ -86,7 +86,7 @@ La clase de documento LaTeX (documentclass) es una modificación de la clase boo
 
 El esquema de carátula de la tesis queda definida en el fichero `1_0_CARATULA/Caratula.tex` (evite editar dicho archivo), y puede modificarse los datos de la carátula desde el preámbulo en el fichero `0_0_PREAMBULO/Preambulo.tex`.
 
-El resultado de la compilación es un archivo PDF llamado [`TESIS_UNI_main.pdf``(https://github.com/DanielCamarena/PlantillaTesis/blob/main/TESIS_UNI_main.pdf).
+El resultado de la compilación es un archivo PDF llamado [`TESIS_UNI_main.pdf`](https://github.com/DanielCamarena/PlantillaTesis/blob/main/TESIS_UNI_main.pdf).
 
 
 ## Recomendaciones
