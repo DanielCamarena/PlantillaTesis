@@ -1,22 +1,21 @@
 %Encoding
-\usepackage[utf8]{inputenc} %https://tex.stackexchange.com/questions/13067/utf8x-vs-utf8-inputenc
-\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} %entrada %https://tex.stackexchange.com/questions/13067/utf8x-vs-utf8-inputenc
+\usepackage[T1]{fontenc} %salida
 
 %Manejo de referencias en estilo APA
 \usepackage[natbibapa]{apacite} %Agregar formato de citación APA
-\bibliographystyle{apacite}
+\bibliographystyle{apacite} %Puede definirse al cargar la lista de referencias
 \setlength{\bibsep}{5pt plus 0.3ex} %Espaciamiento en la bibliografía
-%\renewcommand{\BOthers}[1]{et al.\hbox{}} %Agregar et al. (debe hacerse en el entorno document)
 
-\usepackage[spanish, es-tabla]{babel} %% reemplaza "cuadro" por "tabla"
+\usepackage[spanish, es-tabla]{babel} % es-tabla reemplaza "cuadro" por "tabla"
 \usepackage{layouts} %Saber ancho de hoja
 %\usepackage{fontspec}
 
 \usepackage{mathptmx}
-\usepackage{amssymb}
+\usepackage{amssymb} %Símbolos matemáticos
 \usepackage[mathbf=sym]{unicode-math} % Mantener fuentes matemáticas
 
-\usepackage{graphicx}
+\usepackage{graphicx} %Paquete gráfico
 \usepackage{subcaption} %Insertar SubImagenes
 \usepackage{changepage} %Agregar identación
 \setmainfont{Arial}
@@ -26,17 +25,17 @@
 \pagestyle{fancy} %Encabezado y Pie de página (2)
 \usepackage{titlesec} %Titulos de SECCIONES
 \usepackage{tocloft} %Titulos de ÍNDICES
-\usepackage[colorlinks=true,linkcolor=negro,citecolor=negro]{hyperref}
-\usepackage{multirow} % Agregar TABLAS 
-\usepackage{array} % Dar formato a las TABLAS
+\usepackage[colorlinks=true,linkcolor=negro,citecolor=negro]{hyperref} %Enlaces URL
+\usepackage{multirow} % Para manejar TABLAS 
+\usepackage{array} % Dar más opciones de formato a las TABLAS
 
 \setcounter{secnumdepth}{3} % Numera las subsubsecciones (profundidad 3)
-\renewcommand{\labelitemi}{$\bullet$} %Circulos para viñetas
+\renewcommand{\labelitemi}{$\bullet$} %Cambia circulos por bullets entorno itemize
 \decimalpoint  %Cambia coma decimal por punto decimal
-
 \usepackage{lipsum} %Crear texto RAMDOM (puede omitirse)
-\makeatletter  %Comando para REDUCIR ERRORES (ver https://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do)
 
+\makeatletter  %Comando para REDUCIR ERRORES
+%Ver https://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 
 %Manejo de ELEMENTOS GRAFICOS (puede omitirse)
 
@@ -52,12 +51,12 @@
 \tikzstyle{arrow} = [->,>=stealth]
 \tikzstyle{line}=[draw]
 
-%Manejo de COLORES
+%Manejo de CODIGO
 
 \usepackage{listings}
 \usepackage{color}
 
-%New colors defined below
+%Colores definidos para los textos de código
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.2,0,1}
@@ -118,9 +117,9 @@
 \titlespacing*{\subsubsection}{0pt}{10 pt}{5 pt}
 
 
-% Espaciado entre PÁRRAFOS y SANGRÍA
+% Espaciado entre PÁRRAFOS y SANGRÍA/INDENTACIÓN
 \setlength{\parskip}{5 pt}
-\setlength{\parindent}{0cm}
+\setlength{\parindent}{0cm} % cero indentación
 
 % Dar formato a las TABLAS
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
@@ -190,6 +189,16 @@
 \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}  
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 
+
+%Nuevos entornos THEOREM (Paquetes AMSMATH, AMSTHM)
+%Argumento opcional chapter para controlar numeración en estilo book
+%Se omite argumento chapter para numeración continua
+\newtheorem{theorem}{Teorema}[chapter] 
+\newtheorem{proposition}{Proposición}[chapter]
+
+%Nuevos comandos MATEMATICOS/OTROS
+\newcommand{\R}{\mathbb{R}} %números reales
+\newcommand{\P}{\mathcal{P}} %probabilidad
 
 
 %Escribir la INFORMACIÓN PERSONAL Y DEL TRABAJO
